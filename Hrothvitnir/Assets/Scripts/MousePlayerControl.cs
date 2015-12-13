@@ -9,13 +9,17 @@ public class MousePlayerControl : MonoBehaviour
     public Camera mainCam;
     public bool hideable;
     public bool hiding;
-    public int threatTimerValue = 50;
-    public int threatDecreaseTimerValue = 60;
+    public int threatTimerValue;
+    public int threatDecreaseTimerValue;
+    public int damageTimerValue;
+    public int health;
+    public int size;
 
     bool flipped = false;
     int hideTimer = 10;
     int threatTickTimer;  //Timer for increasing threat
     int threatDecreaseTickTimer; //timer for decreasing threat
+    int damageTimer;
 
     Collider2D hideableCollider; //Stores the most recent hideable object (that is actually hideable)
     
@@ -26,6 +30,9 @@ public class MousePlayerControl : MonoBehaviour
     {
         threat = 0;
         threatTickTimer = 0;
+        threatDecreaseTickTimer = 0;
+        damageTimer = 0;
+        size = 8;
     }
 
     // Update is called once per frame
@@ -142,6 +149,31 @@ public class MousePlayerControl : MonoBehaviour
                 }
             }
         }
+
+        //handles collision with food objects
+        if (collider.transform.tag == "Food")
+        {
+            Debug.Log("HIT DEER");
+            Vector3 wolfScale = transform.localScale;
+            Vector3 colliderScale = collider.transform.localScale;
+
+            Vector3 modWolfScale = new Vector3((Mathf.Abs(wolfScale.x) - Mathf.Abs(wolfScale.x) * .1f), (wolfScale.y - wolfScale.y * .1f), 1);
+
+            if ((colliderScale.x <= modWolfScale.x) && (colliderScale.y <= modWolfScale.y))
+            {
+                Destroy(collider.gameObject);
+                WolfGrow(collider.gameObject.GetComponent<foodStats>().growthAmount);
+            }
+            else
+            {
+                damageTimer -= 1;
+                if (damageTimer <= 0)
+                {
+                    health -= collider.gameObject.GetComponent<foodStats>().damage;
+                    damageTimer = damageTimerValue;
+                }
+            }
+        }
     }
 
     void OnTriggerExit2D(Collider2D collider)
@@ -168,13 +200,18 @@ public class MousePlayerControl : MonoBehaviour
     }
 
 
-    void Grow(int increment)
+    void WolfGrow(int increment)
     {
-        //makes wolf grow
-        transform.localScale = new Vector3(transform.localScale.x + .001f * increment, transform.localScale.y + .001f * increment, 1);
+        for (int i = 0; i < increment; i++)
+        {
+            //makes wolf grow
+            transform.localScale = new Vector3(transform.localScale.x + .001f, transform.localScale.y + .001f, 1);
 
-        //makes camera zoom out
-        mainCam.orthographicSize += increment * .01f;
-        GetComponent<Rigidbody2D>().angularVelocity = 0;
+            //makes camera zoom out
+            mainCam.orthographicSize += .01f;
+            GetComponent<Rigidbody2D>().angularVelocity = 0;
+
+            size += 1;
+        }
     }
 }
