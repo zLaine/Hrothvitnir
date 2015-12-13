@@ -1,18 +1,20 @@
 ﻿using System.Collections;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+//using UnityEngine.SceneManagement;
 
 public class GoToScenes : MonoBehaviour {
 
 
-    /*
-    This line of code is considered obsolete by the compiler,
-    replaced with SceneManager instead
+  
 
-    public void LoadScene() {
+    public void LoadGameScene() {
         Application.LoadLevel("mainScene");
     } 
-    */
+
+
+    /*
+    //This code requires a dependancy outside of standard unity, which is expensive.
+    //We need to use the above code instead.
 
     public void LoadGameScene() {
         SceneManager.LoadScene("mainScene");
@@ -33,4 +35,5 @@ public class GoToScenes : MonoBehaviour {
     public void LoadTitleScene() {
         SceneManager.LoadScene("Title");
     }
+    */
 }
