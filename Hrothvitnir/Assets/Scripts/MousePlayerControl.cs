@@ -9,23 +9,35 @@ public class MousePlayerControl : MonoBehaviour
     public Camera mainCam;
     public bool hideable;
     public bool hiding;
+    public int threatTimerValue = 50;
+    public int threatDecreaseTimerValue = 60;
 
     bool flipped = false;
-    float timer = 10;
+    int hideTimer = 10;
+    int threatTickTimer;  //Timer for increasing threat
+    int threatDecreaseTickTimer; //timer for decreasing threat
 
-    Collider2D hideableCollider;
+    Collider2D hideableCollider; //Stores the most recent hideable object (that is actually hideable)
     
 
 
     // Use this for initialization
     void Start()
     {
-
+        threat = 0;
+        threatTickTimer = 0;
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
+        //prevents negative threat
+        if (threat < 0)
+        {
+            threat = 0;
+        }
+
+        //flips the sprite based on mouse position
         Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         if (mousePosition.x < 0 && flipped == true)
         {
@@ -34,7 +46,6 @@ public class MousePlayerControl : MonoBehaviour
             transform.localScale = flipping;
             flipped = false;
         }
-
         else if (mousePosition.x > 0 && flipped == false)
         {
             Vector3 flipping = transform.localScale;
@@ -56,25 +67,25 @@ public class MousePlayerControl : MonoBehaviour
         //hides behind object
         if(hiding == false && hideable == true)
         {
-            timer -= 1;
+            hideTimer -= 1;
             float hide = Input.GetAxis("Vertical");
-            if (timer < 0 && hide != 0 && hideableCollider.gameObject.GetComponent<SpriteRenderer>().sortingOrder != 7)
+            if (hideTimer <= 0 && hide != 0 && hideableCollider.gameObject.GetComponent<SpriteRenderer>().sortingOrder != 7)
             {
                 hideableCollider.gameObject.GetComponent<SpriteRenderer>().sortingOrder = 7;
                 hiding = true;
-                timer = 10;
+                hideTimer = 10;
             }
         }
         //comes out from hiding
         else if (hiding == true)
         {
-            timer -= 1;
+            hideTimer -= 1;
             float hide = Input.GetAxis("Vertical");
-            if (timer < 0 && hide != 0 && hideableCollider.gameObject.GetComponent<SpriteRenderer>().sortingOrder == 7)
+            if (hideTimer <= 0 && hide != 0 && hideableCollider.gameObject.GetComponent<SpriteRenderer>().sortingOrder == 7)
             {
                 hideableCollider.gameObject.GetComponent<SpriteRenderer>().sortingOrder = 1;
                 hiding = false;
-                timer = 10;
+                hideTimer = 10;
             }
         }
 
@@ -83,6 +94,7 @@ public class MousePlayerControl : MonoBehaviour
 
     void OnTriggerStay2D(Collider2D collider)
     {
+        //determines whether an object is big enough to hide behind
         if (collider.transform.tag == "Hideable")
         {
             Vector3 wolfScale = transform.localScale;
@@ -100,14 +112,58 @@ public class MousePlayerControl : MonoBehaviour
                 hideable = false;
             }
         }
+        //handles threat increase for gods
+        if (collider.transform.tag == "ThreatIncrease")
+        {
+            if (hiding == false)
+            {
+                threatTickTimer -= 1;
+                if (threatTickTimer <= 0)
+                {
+                    threat += collider.gameObject.GetComponent<godVariables>().threatIncrease;
+                    threatTickTimer = threatTimerValue;
+                }
+            }
+        }
+
+        //handles threat decrease for gods
+        if (collider.transform.tag == "ThreatDecrease")
+        {
+            if (hiding == false)
+            {
+                threatDecreaseTickTimer -= 1;
+                if (threatDecreaseTickTimer <= 0)
+                {
+                    if (threat > 0)
+                    {
+                        threat -= collider.gameObject.GetComponent<godVariables>().threatDecrease;
+                    }
+                    threatDecreaseTickTimer = threatDecreaseTimerValue;
+                }
+            }
+        }
     }
 
     void OnTriggerExit2D(Collider2D collider)
     {
+        //comes out from hiding if you leave the collider
         if (collider.transform.tag == "Hideable")
         {
             hideable = false;
+            hiding = false;
+            hideableCollider.gameObject.GetComponent<SpriteRenderer>().sortingOrder = 1;
             hideableCollider = null;
+            hideTimer = 10;
+        }
+
+        if (collider.transform.tag == "ThreatIncrease")
+        {
+            threatTickTimer = threatTimerValue;
+        }
+
+        if (collider.transform.tag == "ThreatDecrease")
+        {
+            threatDecreaseTickTimer = threatDecreaseTimerValue;
         }
     }
 

@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Hideable
+  - ThreatIncrease
+  - ThreatDecrease
   layers:
   - Default
   - TransparentFX
