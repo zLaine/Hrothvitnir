@@ -1,0 +1,32 @@
+Initialize engine version: 5.3.0f4 (2524e04062b4)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics Family (ID=0xa16)
+    Vendor:   Intel
+    VRAM:     896 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Jacob\Documents\Hrothvitnir\Hrothvitnir\TestBuild_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Jacob\Documents\Hrothvitnir\Hrothvitnir\TestBuild_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Jacob\Documents\Hrothvitnir\Hrothvitnir\TestBuild_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Jacob\Documents\Hrothvitnir\Hrothvitnir\TestBuild_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Jacob\Documents\Hrothvitnir\Hrothvitnir\TestBuild_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Jacob\Documents\Hrothvitnir\Hrothvitnir\TestBuild_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Jacob\Documents\Hrothvitnir\Hrothvitnir\TestBuild_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Jacob\Documents\Hrothvitnir\Hrothvitnir\TestBuild_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.238 seconds
+Platform assembly: C:\Users\Jacob\Documents\Hrothvitnir\Hrothvitnir\TestBuild_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Jacob\Documents\Hrothvitnir\Hrothvitnir\TestBuild_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.682536 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 24e0 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.482790 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 231.
+Total: 0.242776 ms (FindLiveObjects: 0.024869 ms CreateObjectMapping: 0.011842 ms MarkObjects: 0.201326 ms  DeleteObjects: 0.003947 ms)
+
