@@ -24,6 +24,10 @@ public class GoToScenes : MonoBehaviour {
         Application.LoadLevel("Title");
     }
 
+    public void LoadGameOverScene() {
+        Application.LoadLevel("Game Over");
+    }
+
     /*
     //This code requires a dependancy outside of standard unity, which is expensive.
     //We need to use the above code instead.

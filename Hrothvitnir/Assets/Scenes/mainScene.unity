@@ -372,9 +372,15 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 950682511}
   m_RootOrder: 0
+<<<<<<< HEAD
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
   m_AnchoredPosition: {x: -3, y: 148}
+=======
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 9, y: 132}
+>>>>>>> origin/master
   m_SizeDelta: {x: 178, y: 44}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &314499893
@@ -1436,7 +1442,7 @@ GameObject:
   - 114: {fileID: 1339788956}
   - 114: {fileID: 1339788955}
   m_Layer: 5
-  m_Name: Main Menu Button
+  m_Name: End Game Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1500,7 +1506,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 351173557}
-        m_MethodName: LoadTitleScene
+        m_MethodName: LoadGameOverScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2163,7 +2169,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Main Menu
+  m_Text: End Game
 --- !u!222 &2123244156
 CanvasRenderer:
   m_ObjectHideFlags: 0
