@@ -41,7 +41,7 @@ public class MousePlayerControl : MonoBehaviour
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
         //prevents negative threat
         if (threat < 0)
@@ -49,6 +49,35 @@ public class MousePlayerControl : MonoBehaviour
             threat = 0;
         }
 
+        //hides behind object
+        if (hiding == false && hideable == true)
+        {
+            hideTimer -= 1;
+            float hide = Input.GetAxis("Vertical");
+            if (hideTimer <= 0 && hide != 0 && hideableCollider.gameObject.GetComponent<SpriteRenderer>().sortingOrder != 7)
+            {
+                hideableCollider.gameObject.GetComponent<SpriteRenderer>().sortingOrder = 7;
+                hiding = true;
+                hideTimer = 10;
+            }
+        }
+        //comes out from hiding
+        else if (hiding == true)
+        {
+            hideTimer -= 1;
+            float hide = Input.GetAxis("Vertical");
+            if (hideTimer <= 0 && hide != 0 && hideableCollider.gameObject.GetComponent<SpriteRenderer>().sortingOrder == 7)
+            {
+                hideableCollider.gameObject.GetComponent<SpriteRenderer>().sortingOrder = 1;
+                hiding = false;
+                hideTimer = 10;
+            }
+        }
+    }
+
+    //Fixed Update resolves regularly, before physics finish
+    void FixedUpdate()
+    {
         //flips the sprite based on mouse position
         Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         if (mousePosition.x > GetComponent<Renderer>().bounds.center.x && flipped == true)
@@ -83,32 +112,6 @@ public class MousePlayerControl : MonoBehaviour
         {
             //stops walk animation
             wolfWalk.SetFloat("wolfSpeed", 0);
-        }
-
-
-        //hides behind object
-        if(hiding == false && hideable == true)
-        {
-            hideTimer -= 1;
-            float hide = Input.GetAxis("Vertical");
-            if (hideTimer <= 0 && hide != 0 && hideableCollider.gameObject.GetComponent<SpriteRenderer>().sortingOrder != 7)
-            {
-                hideableCollider.gameObject.GetComponent<SpriteRenderer>().sortingOrder = 7;
-                hiding = true;
-                hideTimer = 10;
-            }
-        }
-        //comes out from hiding
-        else if (hiding == true)
-        {
-            hideTimer -= 1;
-            float hide = Input.GetAxis("Vertical");
-            if (hideTimer <= 0 && hide != 0 && hideableCollider.gameObject.GetComponent<SpriteRenderer>().sortingOrder == 7)
-            {
-                hideableCollider.gameObject.GetComponent<SpriteRenderer>().sortingOrder = 1;
-                hiding = false;
-                hideTimer = 10;
-            }
         }
     }
 
@@ -221,7 +224,7 @@ public class MousePlayerControl : MonoBehaviour
             transform.localScale = new Vector3(transform.localScale.x + .001f, transform.localScale.y + .001f, 1);
 
             //makes camera zoom out
-            mainCam.orthographicSize += .01f;
+            mainCam.orthographicSize += .001f;
             GetComponent<Rigidbody2D>().angularVelocity = 0;
 
             size += 1;
