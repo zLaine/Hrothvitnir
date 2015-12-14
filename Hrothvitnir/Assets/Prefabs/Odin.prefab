@@ -12,6 +12,7 @@ GameObject:
   - 58: {fileID: 5867566}
   - 114: {fileID: 11474208}
   - 95: {fileID: 9543196}
+  - 114: {fileID: 11440080}
   m_Layer: 0
   m_Name: Odin
   m_TagString: ThreatIncrease
@@ -26,7 +27,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 110260}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.0419999994, y: .587000012, z: 0}
+  m_LocalPosition: {x: .260399997, y: .93870002, z: 0}
   m_LocalScale: {x: .0149999997, y: .0149999997, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -61,6 +62,19 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11440080
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 110260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4cfd11e873a634409e3c35edeb0503a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walkSpeed: .00300000003
+  hasAnimation: 1
 --- !u!114 &11474208
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -78,6 +78,26 @@ public class MousePlayerControl : MonoBehaviour
                 hideTimer = 10;
             }
         }
+
+        //makes sure the gowth scales correctly and doesn't warp
+        if(transform.localScale.x != transform.localScale.y)
+        {
+            if(Mathf.Abs(transform.localScale.x) > transform.localScale.y)
+            {
+                transform.localScale = new Vector3(transform.localScale.x, Mathf.Abs(transform.localScale.x), 1);
+            }
+            else
+            {
+                if (transform.localScale.x > 0)
+                {
+                    transform.localScale = new Vector3(transform.localScale.y, transform.localScale.y, 1);
+                }
+                else
+                {
+                    transform.localScale = new Vector3(-transform.localScale.y, transform.localScale.y, 1);
+                }
+            }
+        }
     }
 
     //Fixed Update resolves regularly, before physics finish
@@ -88,14 +108,14 @@ public class MousePlayerControl : MonoBehaviour
         if (mousePosition.x > GetComponent<Renderer>().bounds.center.x && flipped == true)
         {
             Vector3 flipping = transform.localScale;
-            flipping.x *= -1;// * flipping.y;
+            flipping.x *= -1;
             transform.localScale = flipping;
             flipped = false;
         }
         else if (mousePosition.x < GetComponent<Renderer>().bounds.center.x && flipped == false)
         {
             Vector3 flipping = transform.localScale;
-            flipping.x *= -1; //* flipping.y;
+            flipping.x *= -1;
             transform.localScale = flipping;
             flipped = true;
         }
@@ -226,10 +246,10 @@ public class MousePlayerControl : MonoBehaviour
         for (int i = 0; i < increment; i++)
         {
             //makes wolf grow
-            transform.localScale = new Vector3(transform.localScale.x + .001f, transform.localScale.y + .001f, 1);
+            transform.localScale = new Vector3(transform.localScale.x + .003f, transform.localScale.y + .003f, 1);
 
             //makes camera zoom out
-            mainCam.orthographicSize += .001f;
+            mainCam.orthographicSize += .004f;
             GetComponent<Rigidbody2D>().angularVelocity = 0;
 
             size += 1;
