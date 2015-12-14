@@ -1,0 +1,1002 @@
+fileFormatVersion: 2
+guid: 272e3f642785932468f6134e1b10be15
+timeCreated: 1450069066
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: odinWalkCycle_0
+    21300002: odinWalkCycle_1
+    21300004: odinWalkCycle_2
+    21300006: odinWalkCycle_3
+    21300008: odinWalkCycle_4
+    21300010: odinWalkCycle_5
+    21300012: odinWalkCycle_6
+    21300014: odinWalkCycle_7
+    21300016: odinWalkCycle_8
+    21300018: odinWalkCycle_9
+    21300020: odinWalkCycle_10
+    21300022: odinWalkCycle_11
+    21300024: odinWalkCycle_12
+    21300026: odinWalkCycle_13
+    21300028: odinWalkCycle_14
+    21300030: odinWalkCycle_15
+    21300032: odinWalkCycle_16
+    21300034: odinWalkCycle_17
+    21300036: odinWalkCycle_18
+    21300038: odinWalkCycle_19
+    21300040: odinWalkCycle_20
+    21300042: odinWalkCycle_21
+    21300044: odinWalkCycle_22
+    21300046: odinWalkCycle_23
+    21300048: odinWalkCycle_24
+    21300050: odinWalkCycle_25
+    21300052: odinWalkCycle_26
+    21300054: odinWalkCycle_27
+    21300056: odinWalkCycle_28
+    21300058: odinWalkCycle_29
+    21300060: odinWalkCycle_30
+    21300062: odinWalkCycle_31
+    21300064: odinWalkCycle_32
+    21300066: odinWalkCycle_33
+    21300068: odinWalkCycle_34
+    21300070: odinWalkCycle_35
+    21300072: odinWalkCycle_36
+    21300074: odinWalkCycle_37
+    21300076: odinWalkCycle_38
+    21300078: odinWalkCycle_39
+    21300080: odinWalkCycle_40
+    21300082: odinWalkCycle_41
+    21300084: odinWalkCycle_42
+    21300086: odinWalkCycle_43
+    21300088: odinWalkCycle_44
+    21300090: odinWalkCycle_45
+    21300092: odinWalkCycle_46
+    21300094: odinWalkCycle_47
+    21300096: odinWalkCycle_48
+    21300098: odinWalkCycle_49
+    21300100: odinWalkCycle_50
+    21300102: odinWalkCycle_51
+    21300104: odinWalkCycle_52
+    21300106: odinWalkCycle_53
+    21300108: odinWalkCycle_54
+    21300110: odinWalkCycle_55
+    21300112: odinWalkCycle_56
+    21300114: odinWalkCycle_57
+    21300116: odinWalkCycle_58
+    21300118: odinWalkCycle_59
+    21300120: odinWalkCycle_60
+    21300122: odinWalkCycle_61
+    21300124: odinWalkCycle_62
+    21300126: odinWalkCycle_63
+    21300128: odinWalkCycle_64
+    21300130: odinWalkCycle_65
+    21300132: odinWalkCycle_66
+    21300134: odinWalkCycle_67
+    21300136: odinWalkCycle_68
+    21300138: odinWalkCycle_69
+    21300140: odinWalkCycle_70
+    21300142: odinWalkCycle_71
+    21300144: odinWalkCycle_72
+    21300146: odinWalkCycle_73
+    21300148: odinWalkCycle_74
+    21300150: odinWalkCycle_75
+    21300152: odinWalkCycle_76
+    21300154: odinWalkCycle_77
+    21300156: odinWalkCycle_78
+    21300158: odinWalkCycle_79
+    21300160: odinWalkCycle_80
+    21300162: odinWalkCycle_81
+    21300164: odinWalkCycle_82
+    21300166: odinWalkCycle_83
+    21300168: odinWalkCycle_84
+    21300170: odinWalkCycle_85
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: odinWalkCycle_0
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 443
+        width: 957
+        height: 1433
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_1
+      rect:
+        serializedVersion: 2
+        x: 3010
+        y: 443
+        width: 445
+        height: 1468
+      alignment: 9
+      pivot: {x: .686946988, y: .513492763}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_2
+      rect:
+        serializedVersion: 2
+        x: 4184
+        y: 453
+        width: 613
+        height: 1544
+      alignment: 9
+      pivot: {x: .680949211, y: .533354461}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_3
+      rect:
+        serializedVersion: 2
+        x: 5020
+        y: 1780
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_4
+      rect:
+        serializedVersion: 2
+        x: 5374
+        y: 433
+        width: 992
+        height: 1433
+      alignment: 9
+      pivot: {x: .607823014, y: .497235477}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_5
+      rect:
+        serializedVersion: 2
+        x: 6746
+        y: 458
+        width: 865
+        height: 1339
+      alignment: 9
+      pivot: {x: .655358136, y: .517528832}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_6
+      rect:
+        serializedVersion: 2
+        x: 8163
+        y: 443
+        width: 446
+        height: 1468
+      alignment: 9
+      pivot: {x: .686527789, y: .516191304}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_7
+      rect:
+        serializedVersion: 2
+        x: 9343
+        y: 453
+        width: 663
+        height: 1547
+      alignment: 9
+      pivot: {x: .643402994, y: .540972054}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_8
+      rect:
+        serializedVersion: 2
+        x: 10178
+        y: 1780
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_9
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 448
+        width: 937
+        height: 1332
+      alignment: 9
+      pivot: {x: .574150503, y: .541413426}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_10
+      rect:
+        serializedVersion: 2
+        x: 3708
+        y: 1694
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_11
+      rect:
+        serializedVersion: 2
+        x: 5014
+        y: 1669
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_12
+      rect:
+        serializedVersion: 2
+        x: 8862
+        y: 1694
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_13
+      rect:
+        serializedVersion: 2
+        x: 10168
+        y: 1674
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_14
+      rect:
+        serializedVersion: 2
+        x: 3699
+        y: 1583
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_15
+      rect:
+        serializedVersion: 2
+        x: 5181
+        y: 1603
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_16
+      rect:
+        serializedVersion: 2
+        x: 8857
+        y: 1582
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_17
+      rect:
+        serializedVersion: 2
+        x: 10335
+        y: 1603
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_18
+      rect:
+        serializedVersion: 2
+        x: 7682
+        y: 1577
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_19
+      rect:
+        serializedVersion: 2
+        x: 3870
+        y: 1516
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_20
+      rect:
+        serializedVersion: 2
+        x: 5324
+        y: 1523
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_21
+      rect:
+        serializedVersion: 2
+        x: 9024
+        y: 1516
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_22
+      rect:
+        serializedVersion: 2
+        x: 6496
+        y: 1466
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_23
+      rect:
+        serializedVersion: 2
+        x: 7677
+        y: 1471
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_24
+      rect:
+        serializedVersion: 2
+        x: 4013
+        y: 1436
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_25
+      rect:
+        serializedVersion: 2
+        x: 9166
+        y: 1436
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_26
+      rect:
+        serializedVersion: 2
+        x: 5298
+        y: 1420
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_27
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 1401
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_28
+      rect:
+        serializedVersion: 2
+        x: 7844
+        y: 1401
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_29
+      rect:
+        serializedVersion: 2
+        x: 5182
+        y: 1380
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_30
+      rect:
+        serializedVersion: 2
+        x: 6635
+        y: 1391
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_31
+      rect:
+        serializedVersion: 2
+        x: 10340
+        y: 1380
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_32
+      rect:
+        serializedVersion: 2
+        x: 3987
+        y: 1334
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_33
+      rect:
+        serializedVersion: 2
+        x: 9140
+        y: 1334
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_34
+      rect:
+        serializedVersion: 2
+        x: 6533
+        y: 1314
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_35
+      rect:
+        serializedVersion: 2
+        x: 7984
+        y: 1325
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_36
+      rect:
+        serializedVersion: 2
+        x: 5324
+        y: 1304
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_37
+      rect:
+        serializedVersion: 2
+        x: 5090
+        y: 1269
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_38
+      rect:
+        serializedVersion: 2
+        x: 10244
+        y: 1269
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_39
+      rect:
+        serializedVersion: 2
+        x: 6671
+        y: 1239
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_40
+      rect:
+        serializedVersion: 2
+        x: 7962
+        y: 1224
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_41
+      rect:
+        serializedVersion: 2
+        x: 5151
+        y: 1127
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_42
+      rect:
+        serializedVersion: 2
+        x: 6402
+        y: 1137
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_43
+      rect:
+        serializedVersion: 2
+        x: 10310
+        y: 1127
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_44
+      rect:
+        serializedVersion: 2
+        x: 4788
+        y: 1117
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_45
+      rect:
+        serializedVersion: 2
+        x: 2979
+        y: 1056
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_46
+      rect:
+        serializedVersion: 2
+        x: 7753
+        y: 1071
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_47
+      rect:
+        serializedVersion: 2
+        x: 8133
+        y: 1059
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_48
+      rect:
+        serializedVersion: 2
+        x: 3476
+        y: 1036
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_49
+      rect:
+        serializedVersion: 2
+        x: 8632
+        y: 1031
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_50
+      rect:
+        serializedVersion: 2
+        x: 3483
+        y: 1028
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_51
+      rect:
+        serializedVersion: 2
+        x: 6467
+        y: 990
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_52
+      rect:
+        serializedVersion: 2
+        x: 7814
+        y: 929
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_53
+      rect:
+        serializedVersion: 2
+        x: 4129
+        y: 706
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_54
+      rect:
+        serializedVersion: 2
+        x: 9289
+        y: 708
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_55
+      rect:
+        serializedVersion: 2
+        x: 5027
+        y: 694
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_56
+      rect:
+        serializedVersion: 2
+        x: 5023
+        y: 689
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_57
+      rect:
+        serializedVersion: 2
+        x: 10181
+        y: 689
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_58
+      rect:
+        serializedVersion: 2
+        x: 10176
+        y: 684
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_59
+      rect:
+        serializedVersion: 2
+        x: 8916
+        y: 664
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_60
+      rect:
+        serializedVersion: 2
+        x: 4969
+        y: 631
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_61
+      rect:
+        serializedVersion: 2
+        x: 9277
+        y: 641
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_62
+      rect:
+        serializedVersion: 2
+        x: 10128
+        y: 631
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_63
+      rect:
+        serializedVersion: 2
+        x: 10141
+        y: 628
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_64
+      rect:
+        serializedVersion: 2
+        x: 4974
+        y: 616
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_65
+      rect:
+        serializedVersion: 2
+        x: 10136
+        y: 623
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_66
+      rect:
+        serializedVersion: 2
+        x: 3716
+        y: 603
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_67
+      rect:
+        serializedVersion: 2
+        x: 4893
+        y: 585
+        width: 51
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_68
+      rect:
+        serializedVersion: 2
+        x: 8863
+        y: 596
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_69
+      rect:
+        serializedVersion: 2
+        x: 10048
+        y: 586
+        width: 54
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_70
+      rect:
+        serializedVersion: 2
+        x: 3711
+        y: 598
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_71
+      rect:
+        serializedVersion: 2
+        x: 3658
+        y: 545
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_72
+      rect:
+        serializedVersion: 2
+        x: 8813
+        y: 545
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_73
+      rect:
+        serializedVersion: 2
+        x: 8817
+        y: 530
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_74
+      rect:
+        serializedVersion: 2
+        x: 3663
+        y: 530
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_75
+      rect:
+        serializedVersion: 2
+        x: 3580
+        y: 499
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_76
+      rect:
+        serializedVersion: 2
+        x: 8736
+        y: 499
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_77
+      rect:
+        serializedVersion: 2
+        x: 5767
+        y: 428
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_78
+      rect:
+        serializedVersion: 2
+        x: 7207
+        y: 387
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_79
+      rect:
+        serializedVersion: 2
+        x: 7214
+        y: 380
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_80
+      rect:
+        serializedVersion: 2
+        x: 7115
+        y: 362
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_81
+      rect:
+        serializedVersion: 2
+        x: 5612
+        y: 340
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_82
+      rect:
+        serializedVersion: 2
+        x: 5683
+        y: 332
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_83
+      rect:
+        serializedVersion: 2
+        x: 7215
+        y: 340
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_84
+      rect:
+        serializedVersion: 2
+        x: 6959
+        y: 276
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinWalkCycle_85
+      rect:
+        serializedVersion: 2
+        x: 7029
+        y: 266
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

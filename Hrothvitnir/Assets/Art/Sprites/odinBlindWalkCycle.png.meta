@@ -1,0 +1,1002 @@
+fileFormatVersion: 2
+guid: 9e551d9c3a58c7d4184df77bf549ac9a
+timeCreated: 1450069544
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: odinBlindWalkCycle_0
+    21300002: odinBlindWalkCycle_1
+    21300004: odinBlindWalkCycle_2
+    21300006: odinBlindWalkCycle_3
+    21300008: odinBlindWalkCycle_4
+    21300010: odinBlindWalkCycle_5
+    21300012: odinBlindWalkCycle_6
+    21300014: odinBlindWalkCycle_7
+    21300016: odinBlindWalkCycle_8
+    21300018: odinBlindWalkCycle_9
+    21300020: odinBlindWalkCycle_10
+    21300022: odinBlindWalkCycle_11
+    21300024: odinBlindWalkCycle_12
+    21300026: odinBlindWalkCycle_13
+    21300028: odinBlindWalkCycle_14
+    21300030: odinBlindWalkCycle_15
+    21300032: odinBlindWalkCycle_16
+    21300034: odinBlindWalkCycle_17
+    21300036: odinBlindWalkCycle_18
+    21300038: odinBlindWalkCycle_19
+    21300040: odinBlindWalkCycle_20
+    21300042: odinBlindWalkCycle_21
+    21300044: odinBlindWalkCycle_22
+    21300046: odinBlindWalkCycle_23
+    21300048: odinBlindWalkCycle_24
+    21300050: odinBlindWalkCycle_25
+    21300052: odinBlindWalkCycle_26
+    21300054: odinBlindWalkCycle_27
+    21300056: odinBlindWalkCycle_28
+    21300058: odinBlindWalkCycle_29
+    21300060: odinBlindWalkCycle_30
+    21300062: odinBlindWalkCycle_31
+    21300064: odinBlindWalkCycle_32
+    21300066: odinBlindWalkCycle_33
+    21300068: odinBlindWalkCycle_34
+    21300070: odinBlindWalkCycle_35
+    21300072: odinBlindWalkCycle_36
+    21300074: odinBlindWalkCycle_37
+    21300076: odinBlindWalkCycle_38
+    21300078: odinBlindWalkCycle_39
+    21300080: odinBlindWalkCycle_40
+    21300082: odinBlindWalkCycle_41
+    21300084: odinBlindWalkCycle_42
+    21300086: odinBlindWalkCycle_43
+    21300088: odinBlindWalkCycle_44
+    21300090: odinBlindWalkCycle_45
+    21300092: odinBlindWalkCycle_46
+    21300094: odinBlindWalkCycle_47
+    21300096: odinBlindWalkCycle_48
+    21300098: odinBlindWalkCycle_49
+    21300100: odinBlindWalkCycle_50
+    21300102: odinBlindWalkCycle_51
+    21300104: odinBlindWalkCycle_52
+    21300106: odinBlindWalkCycle_53
+    21300108: odinBlindWalkCycle_54
+    21300110: odinBlindWalkCycle_55
+    21300112: odinBlindWalkCycle_56
+    21300114: odinBlindWalkCycle_57
+    21300116: odinBlindWalkCycle_58
+    21300118: odinBlindWalkCycle_59
+    21300120: odinBlindWalkCycle_60
+    21300122: odinBlindWalkCycle_61
+    21300124: odinBlindWalkCycle_62
+    21300126: odinBlindWalkCycle_63
+    21300128: odinBlindWalkCycle_64
+    21300130: odinBlindWalkCycle_65
+    21300132: odinBlindWalkCycle_66
+    21300134: odinBlindWalkCycle_67
+    21300136: odinBlindWalkCycle_68
+    21300138: odinBlindWalkCycle_69
+    21300140: odinBlindWalkCycle_70
+    21300142: odinBlindWalkCycle_71
+    21300144: odinBlindWalkCycle_72
+    21300146: odinBlindWalkCycle_73
+    21300148: odinBlindWalkCycle_74
+    21300150: odinBlindWalkCycle_75
+    21300152: odinBlindWalkCycle_76
+    21300154: odinBlindWalkCycle_77
+    21300156: odinBlindWalkCycle_78
+    21300158: odinBlindWalkCycle_79
+    21300160: odinBlindWalkCycle_80
+    21300162: odinBlindWalkCycle_81
+    21300164: odinBlindWalkCycle_82
+    21300166: odinBlindWalkCycle_83
+    21300168: odinBlindWalkCycle_84
+    21300170: odinBlindWalkCycle_85
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: odinBlindWalkCycle_0
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1780
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_1
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 453
+        width: 663
+        height: 1547
+      alignment: 9
+      pivot: {x: .343711883, y: .551220477}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_2
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 443
+        width: 446
+        height: 1468
+      alignment: 9
+      pivot: {x: .322336227, y: .512456179}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_3
+      rect:
+        serializedVersion: 2
+        x: 2757
+        y: 458
+        width: 865
+        height: 1339
+      alignment: 9
+      pivot: {x: .330883652, y: .518208265}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_4
+      rect:
+        serializedVersion: 2
+        x: 4002
+        y: 433
+        width: 992
+        height: 1433
+      alignment: 9
+      pivot: {x: .395545214, y: .499999911}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_5
+      rect:
+        serializedVersion: 2
+        x: 5333
+        y: 1780
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_6
+      rect:
+        serializedVersion: 2
+        x: 5571
+        y: 453
+        width: 613
+        height: 1544
+      alignment: 9
+      pivot: {x: .311077386, y: .531581521}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_7
+      rect:
+        serializedVersion: 2
+        x: 6913
+        y: 443
+        width: 445
+        height: 1468
+      alignment: 9
+      pivot: {x: .363028884, y: .516608238}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_8
+      rect:
+        serializedVersion: 2
+        x: 9267
+        y: 443
+        width: 957
+        height: 1433
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_9
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 1694
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_10
+      rect:
+        serializedVersion: 2
+        x: 5338
+        y: 1669
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_11
+      rect:
+        serializedVersion: 2
+        x: 6645
+        y: 1694
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_12
+      rect:
+        serializedVersion: 2
+        x: 7931
+        y: 442
+        width: 937
+        height: 1332
+      alignment: 9
+      pivot: {x: .408929557, y: .550335944}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_13
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1674
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_14
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1603
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_15
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 1582
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_16
+      rect:
+        serializedVersion: 2
+        x: 5161
+        y: 1603
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_17
+      rect:
+        serializedVersion: 2
+        x: 6650
+        y: 1583
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_18
+      rect:
+        serializedVersion: 2
+        x: 2670
+        y: 1577
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_19
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 1516
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_20
+      rect:
+        serializedVersion: 2
+        x: 5036
+        y: 1523
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_21
+      rect:
+        serializedVersion: 2
+        x: 6472
+        y: 1516
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_22
+      rect:
+        serializedVersion: 2
+        x: 2676
+        y: 1471
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_23
+      rect:
+        serializedVersion: 2
+        x: 3845
+        y: 1466
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_24
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 1436
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_25
+      rect:
+        serializedVersion: 2
+        x: 6347
+        y: 1436
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_26
+      rect:
+        serializedVersion: 2
+        x: 5060
+        y: 1420
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_27
+      rect:
+        serializedVersion: 2
+        x: 2499
+        y: 1401
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_28
+      rect:
+        serializedVersion: 2
+        x: 9025
+        y: 1401
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_29
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1380
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_30
+      rect:
+        serializedVersion: 2
+        x: 3721
+        y: 1391
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_31
+      rect:
+        serializedVersion: 2
+        x: 5156
+        y: 1380
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_32
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 1334
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_33
+      rect:
+        serializedVersion: 2
+        x: 6371
+        y: 1334
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_34
+      rect:
+        serializedVersion: 2
+        x: 2373
+        y: 1325
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_35
+      rect:
+        serializedVersion: 2
+        x: 3810
+        y: 1314
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_36
+      rect:
+        serializedVersion: 2
+        x: 5035
+        y: 1304
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_37
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1269
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_38
+      rect:
+        serializedVersion: 2
+        x: 5263
+        y: 1269
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_39
+      rect:
+        serializedVersion: 2
+        x: 3684
+        y: 1239
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_40
+      rect:
+        serializedVersion: 2
+        x: 2398
+        y: 1224
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_41
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1127
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_42
+      rect:
+        serializedVersion: 2
+        x: 3951
+        y: 1137
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_43
+      rect:
+        serializedVersion: 2
+        x: 5202
+        y: 1127
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_44
+      rect:
+        serializedVersion: 2
+        x: 5567
+        y: 1117
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_45
+      rect:
+        serializedVersion: 2
+        x: 2225
+        y: 1059
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_46
+      rect:
+        serializedVersion: 2
+        x: 2605
+        y: 1071
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_47
+      rect:
+        serializedVersion: 2
+        x: 7379
+        y: 1056
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_48
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 1031
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_49
+      rect:
+        serializedVersion: 2
+        x: 6883
+        y: 1036
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_50
+      rect:
+        serializedVersion: 2
+        x: 6880
+        y: 1028
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_51
+      rect:
+        serializedVersion: 2
+        x: 3891
+        y: 990
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_52
+      rect:
+        serializedVersion: 2
+        x: 2539
+        y: 929
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_53
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 708
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_54
+      rect:
+        serializedVersion: 2
+        x: 6229
+        y: 706
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_55
+      rect:
+        serializedVersion: 2
+        x: 5336
+        y: 694
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_56
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 689
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_57
+      rect:
+        serializedVersion: 2
+        x: 5341
+        y: 689
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_58
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 684
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_59
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 664
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_60
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 631
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_61
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 641
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_62
+      rect:
+        serializedVersion: 2
+        x: 5374
+        y: 631
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_63
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 628
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_64
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 623
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_65
+      rect:
+        serializedVersion: 2
+        x: 5385
+        y: 616
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_66
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 586
+        width: 54
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_67
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 596
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_68
+      rect:
+        serializedVersion: 2
+        x: 5424
+        y: 585
+        width: 51
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_69
+      rect:
+        serializedVersion: 2
+        x: 6648
+        y: 603
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_70
+      rect:
+        serializedVersion: 2
+        x: 6652
+        y: 598
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_71
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 545
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_72
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 530
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_73
+      rect:
+        serializedVersion: 2
+        x: 6685
+        y: 545
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_74
+      rect:
+        serializedVersion: 2
+        x: 6696
+        y: 530
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_75
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 499
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_76
+      rect:
+        serializedVersion: 2
+        x: 6736
+        y: 499
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_77
+      rect:
+        serializedVersion: 2
+        x: 4584
+        y: 428
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_78
+      rect:
+        serializedVersion: 2
+        x: 3152
+        y: 387
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_79
+      rect:
+        serializedVersion: 2
+        x: 3149
+        y: 380
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_80
+      rect:
+        serializedVersion: 2
+        x: 3237
+        y: 362
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_81
+      rect:
+        serializedVersion: 2
+        x: 3149
+        y: 340
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_82
+      rect:
+        serializedVersion: 2
+        x: 4670
+        y: 332
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_83
+      rect:
+        serializedVersion: 2
+        x: 4741
+        y: 340
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_84
+      rect:
+        serializedVersion: 2
+        x: 3324
+        y: 266
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: odinBlindWalkCycle_85
+      rect:
+        serializedVersion: 2
+        x: 3394
+        y: 276
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
