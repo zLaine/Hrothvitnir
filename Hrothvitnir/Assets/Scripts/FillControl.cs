@@ -16,11 +16,13 @@ public class FillControl : MonoBehaviour {
 
         threatLevel = MousePlayerControl.threat;
 
-        if (threatLevel < 1) {
+        if (threatLevel < 1)
+        {
             GetComponent<Image>().enabled = false;
         }
 
-        else {
+        else if (threatLevel > 1)
+        {
             GetComponent<Image>().enabled = true;
         }
 

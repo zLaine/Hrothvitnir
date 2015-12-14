@@ -1,0 +1,749 @@
+fileFormatVersion: 2
+guid: ed01de9e5fb844e488434a0278b7a14f
+timeCreated: 1450130898
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: TyrWalkCycle_0
+    21300002: TyrWalkCycle_1
+    21300004: TyrWalkCycle_2
+    21300006: TyrWalkCycle_3
+    21300008: TyrWalkCycle_4
+    21300010: TyrWalkCycle_5
+    21300012: TyrWalkCycle_6
+    21300014: TyrWalkCycle_7
+    21300016: TyrWalkCycle_8
+    21300018: TyrWalkCycle_9
+    21300020: TyrWalkCycle_10
+    21300022: TyrWalkCycle_11
+    21300024: TyrWalkCycle_12
+    21300026: TyrWalkCycle_13
+    21300028: TyrWalkCycle_14
+    21300030: TyrWalkCycle_15
+    21300032: TyrWalkCycle_16
+    21300034: TyrWalkCycle_17
+    21300036: TyrWalkCycle_18
+    21300038: TyrWalkCycle_19
+    21300040: TyrWalkCycle_20
+    21300042: TyrWalkCycle_21
+    21300044: TyrWalkCycle_22
+    21300046: TyrWalkCycle_23
+    21300048: TyrWalkCycle_24
+    21300050: TyrWalkCycle_25
+    21300052: TyrWalkCycle_26
+    21300054: TyrWalkCycle_27
+    21300056: TyrWalkCycle_28
+    21300058: TyrWalkCycle_29
+    21300060: TyrWalkCycle_30
+    21300062: TyrWalkCycle_31
+    21300064: TyrWalkCycle_32
+    21300066: TyrWalkCycle_33
+    21300068: TyrWalkCycle_34
+    21300070: TyrWalkCycle_35
+    21300072: TyrWalkCycle_36
+    21300074: TyrWalkCycle_37
+    21300076: TyrWalkCycle_38
+    21300078: TyrWalkCycle_39
+    21300080: TyrWalkCycle_40
+    21300082: TyrWalkCycle_41
+    21300084: TyrWalkCycle_42
+    21300086: TyrWalkCycle_43
+    21300088: TyrWalkCycle_44
+    21300090: TyrWalkCycle_45
+    21300092: TyrWalkCycle_46
+    21300094: TyrWalkCycle_47
+    21300096: TyrWalkCycle_48
+    21300098: TyrWalkCycle_49
+    21300100: TyrWalkCycle_50
+    21300102: TyrWalkCycle_51
+    21300104: TyrWalkCycle_52
+    21300106: TyrWalkCycle_53
+    21300108: TyrWalkCycle_54
+    21300110: TyrWalkCycle_55
+    21300112: TyrWalkCycle_56
+    21300114: TyrWalkCycle_57
+    21300116: TyrWalkCycle_58
+    21300118: TyrWalkCycle_59
+    21300120: TyrWalkCycle_60
+    21300122: TyrWalkCycle_61
+    21300124: TyrWalkCycle_62
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: TyrWalkCycle_0
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 322
+        width: 942
+        height: 1326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_1
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 316
+        width: 916
+        height: 1281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_2
+      rect:
+        serializedVersion: 2
+        x: 3005
+        y: 302
+        width: 430
+        height: 1397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_3
+      rect:
+        serializedVersion: 2
+        x: 3465
+        y: 1122
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_4
+      rect:
+        serializedVersion: 2
+        x: 4204
+        y: 311
+        width: 653
+        height: 1478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_5
+      rect:
+        serializedVersion: 2
+        x: 5349
+        y: 317
+        width: 1002
+        height: 1371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_6
+      rect:
+        serializedVersion: 2
+        x: 6690
+        y: 316
+        width: 916
+        height: 1292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_7
+      rect:
+        serializedVersion: 2
+        x: 8168
+        y: 312
+        width: 481
+        height: 1376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_8
+      rect:
+        serializedVersion: 2
+        x: 9368
+        y: 332
+        width: 689
+        height: 1433
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_9
+      rect:
+        serializedVersion: 2
+        x: 3472
+        y: 1098
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_10
+      rect:
+        serializedVersion: 2
+        x: 3476
+        y: 1072
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_11
+      rect:
+        serializedVersion: 2
+        x: 4873
+        y: 1067
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_12
+      rect:
+        serializedVersion: 2
+        x: 3481
+        y: 1048
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_13
+      rect:
+        serializedVersion: 2
+        x: 4879
+        y: 1047
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_14
+      rect:
+        serializedVersion: 2
+        x: 4853
+        y: 1036
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_15
+      rect:
+        serializedVersion: 2
+        x: 3487
+        y: 1027
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_16
+      rect:
+        serializedVersion: 2
+        x: 4858
+        y: 1026
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_17
+      rect:
+        serializedVersion: 2
+        x: 3494
+        y: 1008
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_18
+      rect:
+        serializedVersion: 2
+        x: 8166
+        y: 932
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_19
+      rect:
+        serializedVersion: 2
+        x: 4869
+        y: 900
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_20
+      rect:
+        serializedVersion: 2
+        x: 10053
+        y: 881
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_21
+      rect:
+        serializedVersion: 2
+        x: 8728
+        y: 805
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_22
+      rect:
+        serializedVersion: 2
+        x: 8001
+        y: 793
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_23
+      rect:
+        serializedVersion: 2
+        x: 3465
+        y: 737
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_24
+      rect:
+        serializedVersion: 2
+        x: 8654
+        y: 722
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_25
+      rect:
+        serializedVersion: 2
+        x: 7653
+        y: 692
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_26
+      rect:
+        serializedVersion: 2
+        x: 8165
+        y: 688
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_27
+      rect:
+        serializedVersion: 2
+        x: 4869
+        y: 672
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_28
+      rect:
+        serializedVersion: 2
+        x: 4081
+        y: 654
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_29
+      rect:
+        serializedVersion: 2
+        x: 4868
+        y: 626
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_30
+      rect:
+        serializedVersion: 2
+        x: 3473
+        y: 608
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_31
+      rect:
+        serializedVersion: 2
+        x: 8680
+        y: 610
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_32
+      rect:
+        serializedVersion: 2
+        x: 3457
+        y: 596
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_33
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 598
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_34
+      rect:
+        serializedVersion: 2
+        x: 9242
+        y: 588
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_35
+      rect:
+        serializedVersion: 2
+        x: 5015
+        y: 575
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_36
+      rect:
+        serializedVersion: 2
+        x: 3716
+        y: 557
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_37
+      rect:
+        serializedVersion: 2
+        x: 8720
+        y: 560
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_38
+      rect:
+        serializedVersion: 2
+        x: 8708
+        y: 537
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_39
+      rect:
+        serializedVersion: 2
+        x: 7936
+        y: 524
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_40
+      rect:
+        serializedVersion: 2
+        x: 8743
+        y: 532
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_41
+      rect:
+        serializedVersion: 2
+        x: 4893
+        y: 494
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_42
+      rect:
+        serializedVersion: 2
+        x: 8650
+        y: 469
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_43
+      rect:
+        serializedVersion: 2
+        x: 10062
+        y: 464
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_44
+      rect:
+        serializedVersion: 2
+        x: 8644
+        y: 449
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_45
+      rect:
+        serializedVersion: 2
+        x: 3635
+        y: 441
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_46
+      rect:
+        serializedVersion: 2
+        x: 10234
+        y: 434
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_47
+      rect:
+        serializedVersion: 2
+        x: 8134
+        y: 434
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_48
+      rect:
+        serializedVersion: 2
+        x: 8804
+        y: 431
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_49
+      rect:
+        serializedVersion: 2
+        x: 8028
+        y: 389
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_50
+      rect:
+        serializedVersion: 2
+        x: 8670
+        y: 389
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_51
+      rect:
+        serializedVersion: 2
+        x: 2920
+        y: 374
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_52
+      rect:
+        serializedVersion: 2
+        x: 8017
+        y: 327
+        width: 40
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_53
+      rect:
+        serializedVersion: 2
+        x: 8077
+        y: 332
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_54
+      rect:
+        serializedVersion: 2
+        x: 8082
+        y: 317
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_55
+      rect:
+        serializedVersion: 2
+        x: 9556
+        y: 312
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_56
+      rect:
+        serializedVersion: 2
+        x: 5556
+        y: 281
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_57
+      rect:
+        serializedVersion: 2
+        x: 8118
+        y: 286
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_58
+      rect:
+        serializedVersion: 2
+        x: 5563
+        y: 267
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_59
+      rect:
+        serializedVersion: 2
+        x: 8123
+        y: 271
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_60
+      rect:
+        serializedVersion: 2
+        x: 5668
+        y: 236
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_61
+      rect:
+        serializedVersion: 2
+        x: 8234
+        y: 231
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TyrWalkCycle_62
+      rect:
+        serializedVersion: 2
+        x: 5675
+        y: 228
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

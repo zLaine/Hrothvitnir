@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class WanderAI : MonoBehaviour {
+public class RavenAI : MonoBehaviour {
 
-    public Vector3 targetLocation;
+    Vector3 targetLocation;
     Vector3 currentLocation;
     Vector3 previousLocation;
 
@@ -35,8 +35,7 @@ public class WanderAI : MonoBehaviour {
         transform.position = Vector3.MoveTowards(transform.position, targetLocation, walkSpeed);
 
         //controls the walking animations
-        //this one works for asymmetrical characters
-        if (hasAnimation == true && this.gameObject.name == "Odin")
+        /*if (hasAnimation == true)
         {
             if (previousLocation.x < transform.position.x)
             {
@@ -50,25 +49,20 @@ public class WanderAI : MonoBehaviour {
             }
 
             previousLocation = currentLocation;
-        }
-        //symmetrical characters
-        else if(hasAnimation == true)
-        {
-            if (previousLocation.x < transform.position.x)
-            {
-                //honestly we don't really need this part but I am going to leave it in to maybe make this easier to read.
-                //Sprite walks right automatically.
-                walkRight = true;
-            }
-            else
-            {
-                Vector3 flipping = transform.localScale;
-                flipping.x = -Mathf.Abs(flipping.x);
-                transform.localScale = flipping;
-                walkRight = false;
-            }
+        }*/
+    }
 
-            previousLocation = currentLocation;
+    void OnTriggerStay2D(Collider2D collider)
+    {
+        //follows player and tells Odin to go to player
+        if (collider.transform.tag == "Player" && collider.GetComponent<MousePlayerControl>().hiding == false)
+        {
+            Vector3 wolfPosition = collider.transform.position;
+            targetLocation = wolfPosition;
+            GameObject odin = GameObject.Find("Odin");
+
+            odin.GetComponent<WanderAI>().targetLocation = wolfPosition;
         }
+
     }
 }

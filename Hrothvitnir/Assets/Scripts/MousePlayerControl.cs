@@ -65,9 +65,9 @@ public class MousePlayerControl : MonoBehaviour
         {
             hideTimer -= 1;
             float hide = Input.GetAxis("Vertical");
-            if (hideTimer <= 0 && hide != 0 && hideableCollider.gameObject.GetComponent<SpriteRenderer>().sortingOrder != 7)
+            if (hideTimer <= 0 && hide != 0 && this.gameObject.GetComponent<SpriteRenderer>().sortingOrder != 0)
             {
-                hideableCollider.gameObject.GetComponent<SpriteRenderer>().sortingOrder = 7;
+                this.gameObject.GetComponent<SpriteRenderer>().sortingOrder = 0;
                 hiding = true;
                 hideTimer = 10;
             }
@@ -77,9 +77,9 @@ public class MousePlayerControl : MonoBehaviour
         {
             hideTimer -= 1;
             float hide = Input.GetAxis("Vertical");
-            if (hideTimer <= 0 && hide != 0 && hideableCollider.gameObject.GetComponent<SpriteRenderer>().sortingOrder == 7)
+            if (hideTimer <= 0 && hide != 0 && this.gameObject.GetComponent<SpriteRenderer>().sortingOrder == 0)
             {
-                hideableCollider.gameObject.GetComponent<SpriteRenderer>().sortingOrder = 1;
+                this.gameObject.GetComponent<SpriteRenderer>().sortingOrder = 6;
                 hiding = false;
                 hideTimer = 10;
             }
@@ -240,7 +240,7 @@ public class MousePlayerControl : MonoBehaviour
         {
             hideable = false;
             hiding = false;
-            hideableCollider.gameObject.GetComponent<SpriteRenderer>().sortingOrder = 1;
+            this.gameObject.GetComponent<SpriteRenderer>().sortingOrder = 6;
             hideableCollider = null;
             hideTimer = 10;
         }
