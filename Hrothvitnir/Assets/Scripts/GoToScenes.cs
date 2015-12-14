@@ -4,13 +4,25 @@ using UnityEngine;
 
 public class GoToScenes : MonoBehaviour {
 
-
-  
-
     public void LoadGameScene() {
         Application.LoadLevel("mainScene");
-    } 
+    }
 
+    public void LoadCreditScene() {
+        Application.LoadLevel("Credit Screen");
+    }
+
+    public void LoadOptionsScene() {
+        Application.LoadLevel("Options Menu");
+    }
+
+    public void LoadScoreScene() {
+        Application.LoadLevel("Score Screen");
+    }
+
+    public void LoadTitleScene() {
+        Application.LoadLevel("Title");
+    }
 
     /*
     //This code requires a dependancy outside of standard unity, which is expensive.
