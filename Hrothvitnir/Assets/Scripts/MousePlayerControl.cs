@@ -6,6 +6,7 @@ public class MousePlayerControl : MonoBehaviour
     //Changes this to be static so I may access easily in other scripts
     public static float threat;
     public static int size;
+    public static int health;
 
     public float playerSpeed;
     public Camera mainCam;
@@ -14,7 +15,7 @@ public class MousePlayerControl : MonoBehaviour
     public int threatTimerValue;
     public int threatDecreaseTimerValue;
     public int damageTimerValue;
-    public int health;
+    
 
     AudioSource source;
     public AudioClip chomp;
@@ -35,6 +36,7 @@ public class MousePlayerControl : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        health = 3;
         threat = 0;
         threatTickTimer = 0;
         threatDecreaseTickTimer = 0;
@@ -301,7 +303,7 @@ public class MousePlayerControl : MonoBehaviour
     void FailState() {
 
         //The reason for greater than as well is because some threats increase at different incrememnts meaning it may not always be exactly 100
-        if (threat >= 100) {
+        if (threat >= 100 || health == 0) {
             Application.LoadLevel("Game Over");
         }
     }
