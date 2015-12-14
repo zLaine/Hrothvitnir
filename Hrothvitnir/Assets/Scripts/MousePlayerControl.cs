@@ -45,6 +45,9 @@ public class MousePlayerControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Checks if the game has ended
+        FailState();
+
         //prevents negative threat
         if (threat < 0)
         {
@@ -230,6 +233,15 @@ public class MousePlayerControl : MonoBehaviour
             GetComponent<Rigidbody2D>().angularVelocity = 0;
 
             size += 1;
+        }
+    }
+
+    //will be checked for either fail states of threat reaching 100 or losing all health
+    void FailState() {
+
+        //The reason for greater than as well is because some threats increase at different incrememnts meaning it may not always be exactly 100
+        if (threat >= 100) {
+            Application.LoadLevel("Game Over");
         }
     }
 }
