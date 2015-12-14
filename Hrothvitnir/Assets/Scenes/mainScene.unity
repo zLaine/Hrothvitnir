@@ -430,9 +430,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 950682511}
   m_RootOrder: 0
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9, y: 132}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 9, y: -29}
   m_SizeDelta: {x: 178, y: 44}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &314499893
@@ -1432,6 +1432,22 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1339788953}
+--- !u!1 &1357078694 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 198990, guid: 378b07cb5b9bb254b90fb461fecfbc13, type: 2}
+  m_PrefabInternal: {fileID: 640990202}
+--- !u!114 &1357078699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1357078694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56ce6375922caa543bd87520f7075ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: {fileID: 314499893}
 --- !u!1 &1383821241
 GameObject:
   m_ObjectHideFlags: 0
@@ -1986,7 +2002,7 @@ Transform:
   m_LocalScale: {x: .0250000004, y: .0250000004, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
 --- !u!1 &1994485486
 GameObject:
   m_ObjectHideFlags: 0

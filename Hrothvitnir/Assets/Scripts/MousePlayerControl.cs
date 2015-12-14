@@ -3,8 +3,9 @@ using System.Collections;
 
 public class MousePlayerControl : MonoBehaviour
 {
-    //Changes this to be static so I may access easily in FillControl
+    //Changes this to be static so I may access easily in other scripts
     public static float threat;
+    public static int size;
 
     public float playerSpeed;
     public Camera mainCam;
@@ -14,7 +15,7 @@ public class MousePlayerControl : MonoBehaviour
     public int threatDecreaseTimerValue;
     public int damageTimerValue;
     public int health;
-    public int size;
+
 
     Animator wolfWalk;
 
