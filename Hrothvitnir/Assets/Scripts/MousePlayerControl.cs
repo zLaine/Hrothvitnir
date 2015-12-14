@@ -16,7 +16,9 @@ public class MousePlayerControl : MonoBehaviour
     public int damageTimerValue;
     public int health;
 
-
+    AudioSource source;
+    public AudioClip chomp;
+    public AudioClip wolfWalking;
     Animator wolfWalk;
 
     bool flipped = false;
@@ -40,6 +42,8 @@ public class MousePlayerControl : MonoBehaviour
         size = 8;
         wolfWalk = GetComponent<Animator>();
         tempPosition = transform.position;
+
+        source = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -130,6 +134,9 @@ public class MousePlayerControl : MonoBehaviour
             //controls walk animation
             wolfWalk.SetFloat("wolfSpeed", 1);
 
+            //plays sound
+            source.Play();
+
             //prevents the z from changing, fixes bug where character moved in front of camera
             transform.position = new Vector3(transform.position.x, transform.position.y, 0);
         }
@@ -137,6 +144,9 @@ public class MousePlayerControl : MonoBehaviour
         {
             //stops walk animation
             wolfWalk.SetFloat("wolfSpeed", 0);
+
+            //stops sound
+            source.Stop();
         }
     }
 
@@ -202,7 +212,11 @@ public class MousePlayerControl : MonoBehaviour
 
             if ((colliderSize.x <= modWolfSize.x) && (colliderSize.y <= modWolfSize.y))
             {
-                Destroy(collider.gameObject);
+                //plays sound
+                source.PlayOneShot(chomp, .2f);
+
+                //respawns the food in another location
+                foodRespawn(collider);
                 WolfGrow(collider.gameObject.GetComponent<foodStats>().growthAmount);
             }
             else
@@ -231,7 +245,7 @@ public class MousePlayerControl : MonoBehaviour
 
         if (collider.transform.tag == "ThreatIncrease")
         {
-            threatTickTimer = threatTimerValue;
+            threatTickTimer = 0;
         }
 
         if (collider.transform.tag == "ThreatDecrease")
@@ -253,6 +267,33 @@ public class MousePlayerControl : MonoBehaviour
             GetComponent<Rigidbody2D>().angularVelocity = 0;
 
             size += 1;
+        }
+    }
+
+    void foodRespawn(Collider2D collider)
+    {
+        int increment = collider.gameObject.GetComponent<foodStats>().growthAmount;
+        Vector3 wolfSize = GetComponent<Renderer>().bounds.size;
+        Vector3 colliderSize = collider.GetComponent<Renderer>().bounds.size;
+        Vector3 modWolfSize = new Vector3((Mathf.Abs(wolfSize.x) - Mathf.Abs(wolfSize.x) * .1f), (wolfSize.y - wolfSize.y * .1f), 1);
+
+        collider.transform.position = new Vector3(Random.Range(-2F, 2.6F), Random.Range(-1F, 2.4F), 0);
+        collider.transform.localScale = new Vector3(collider.transform.localScale.x + .001f , collider.transform.localScale.y + .001f, 1);
+
+        //everything else ends up eatable right away when respawned
+        if(collider.name != "Big Food" && collider.name != "Very Big Food" && (colliderSize.x <= modWolfSize.x) && (colliderSize.y <= modWolfSize.y))
+        {
+            collider.transform.localScale = new Vector3(collider.transform.localScale.x - .0005f, collider.transform.localScale.y - .0005f, 1);
+        }
+        //1.8 size when eaten
+        if(collider.name == "Big Food")
+        {
+            collider.transform.localScale = new Vector3(collider.transform.localScale.x + (collider.transform.localScale.x * .8f), collider.transform.localScale.y + (collider.transform.localScale.y * .8f), 1);
+        }
+        //triples in size when eaten
+        if (collider.name == "Very Big Food")
+        {
+            collider.transform.localScale = new Vector3(collider.transform.localScale.x + (collider.transform.localScale.x * 2f), collider.transform.localScale.y + (collider.transform.localScale.y * 2f), 1);
         }
     }
 

@@ -70,6 +70,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   walkSpeed: .00249999994
   hasAnimation: 0
+  walkRight: 0
 --- !u!212 &21253296
 SpriteRenderer:
   m_ObjectHideFlags: 1

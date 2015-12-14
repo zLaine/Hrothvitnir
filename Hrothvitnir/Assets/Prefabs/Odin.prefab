@@ -75,6 +75,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   walkSpeed: .00300000003
   hasAnimation: 1
+  walkRight: 0
 --- !u!114 &11474208
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -86,7 +87,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2afafd1fabb6e4841a96125d59e47e32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  threatIncrease: 3
+  threatIncrease: 10
   threatDecrease: 0
 --- !u!212 &21245656
 SpriteRenderer:
