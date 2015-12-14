@@ -4,24 +4,26 @@ using System.Collections;
 
 public class FillControl : MonoBehaviour {
 
-    public int threatLevel;
+    public float threatLevel;
                               
     // Use this for initialization
 	void Start () {
-	
-	}
+        threatLevel = 0;
+    }
 	
 	// Update is called once per frame
 	void Update () {
 
-        if (threatLevel < 1)
-        {
+        threatLevel = MousePlayerControl.threat;
+
+        if (threatLevel < 1) {
             GetComponent<Image>().enabled = false;
         }
-        else
-        {
+
+        else {
             GetComponent<Image>().enabled = true;
         }
 
+        GameObject.Find("Threat Level").GetComponent<Slider>().value = threatLevel;
     }
 }

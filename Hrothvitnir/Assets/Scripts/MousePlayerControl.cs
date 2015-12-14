@@ -3,9 +3,10 @@ using System.Collections;
 
 public class MousePlayerControl : MonoBehaviour
 {
+    //Changes this to be static so I may access easily in FillControl
+    public static float threat;
 
     public float playerSpeed;
-    public float threat;
     public Camera mainCam;
     public bool hideable;
     public bool hiding;
