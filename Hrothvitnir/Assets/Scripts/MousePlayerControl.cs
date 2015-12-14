@@ -15,6 +15,8 @@ public class MousePlayerControl : MonoBehaviour
     public int health;
     public int size;
 
+    Animator wolfWalk;
+
     bool flipped = false;
     int hideTimer = 10;
     int threatTickTimer;  //Timer for increasing threat
@@ -22,7 +24,8 @@ public class MousePlayerControl : MonoBehaviour
     int damageTimer;
 
     Collider2D hideableCollider; //Stores the most recent hideable object (that is actually hideable)
-    
+    Vector3 tempPosition; //used to determine if wolf is moving or not for animation purposes (since velocity isn't used)
+
 
 
     // Use this for initialization
@@ -33,6 +36,8 @@ public class MousePlayerControl : MonoBehaviour
         threatDecreaseTickTimer = 0;
         damageTimer = 0;
         size = 8;
+        wolfWalk = GetComponent<Animator>();
+        tempPosition = transform.position;
     }
 
     // Update is called once per frame
@@ -46,14 +51,14 @@ public class MousePlayerControl : MonoBehaviour
 
         //flips the sprite based on mouse position
         Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        if (mousePosition.x < 0 && flipped == true)
+        if (mousePosition.x > GetComponent<Renderer>().bounds.center.x && flipped == true)
         {
             Vector3 flipping = transform.localScale;
             flipping.x *= -1;// * flipping.y;
             transform.localScale = flipping;
             flipped = false;
         }
-        else if (mousePosition.x > 0 && flipped == false)
+        else if (mousePosition.x < GetComponent<Renderer>().bounds.center.x && flipped == false)
         {
             Vector3 flipping = transform.localScale;
             flipping.x *= -1; //* flipping.y;
@@ -65,9 +70,19 @@ public class MousePlayerControl : MonoBehaviour
         float input = Input.GetAxis("Horizontal");
         if (input > 0)
         {
+            //moves towards the mouse at specified speed
             transform.position = Vector3.MoveTowards(transform.position, mousePosition, playerSpeed);
+
+            //controls walk animation
+            wolfWalk.SetFloat("wolfSpeed", 1);
+
             //prevents the z from changing, fixes bug where character moved in front of camera
             transform.position = new Vector3(transform.position.x, transform.position.y, 0);
+        }
+        else
+        {
+            //stops walk animation
+            wolfWalk.SetFloat("wolfSpeed", 0);
         }
 
 
@@ -95,7 +110,6 @@ public class MousePlayerControl : MonoBehaviour
                 hideTimer = 10;
             }
         }
-
     }
 
 
@@ -104,12 +118,12 @@ public class MousePlayerControl : MonoBehaviour
         //determines whether an object is big enough to hide behind
         if (collider.transform.tag == "Hideable")
         {
-            Vector3 wolfScale = transform.localScale;
-            Vector3 colliderScale = collider.transform.localScale;
+            Vector3 wolfSize = GetComponent<Renderer>().bounds.size;
+            Vector3 colliderSize = collider.GetComponent<Renderer>().bounds.size;
 
-            Vector3 modWolfScale = new Vector3((Mathf.Abs(wolfScale.x) + Mathf.Abs(wolfScale.x) * .1f), (wolfScale.y + wolfScale.y * .1f), 1);
+            Vector3 modWolfSize = new Vector3((Mathf.Abs(wolfSize.x) - Mathf.Abs(wolfSize.x) * .1f), (wolfSize.y - wolfSize.y * .1f), 1);
 
-            if ((colliderScale.x >= modWolfScale.x) && (colliderScale.y >= modWolfScale.y))
+            if ((colliderSize.x >= modWolfSize.x) && (colliderSize.y >= modWolfSize.y))
             {
                 hideable = true;
                 hideableCollider = collider;
@@ -153,13 +167,12 @@ public class MousePlayerControl : MonoBehaviour
         //handles collision with food objects
         if (collider.transform.tag == "Food")
         {
-            Debug.Log("HIT DEER");
-            Vector3 wolfScale = transform.localScale;
-            Vector3 colliderScale = collider.transform.localScale;
+            Vector3 wolfSize = GetComponent<Renderer>().bounds.size;
+            Vector3 colliderSize = collider.GetComponent<Renderer>().bounds.size;
 
-            Vector3 modWolfScale = new Vector3((Mathf.Abs(wolfScale.x) - Mathf.Abs(wolfScale.x) * .1f), (wolfScale.y - wolfScale.y * .1f), 1);
+            Vector3 modWolfSize = new Vector3((Mathf.Abs(wolfSize.x) - Mathf.Abs(wolfSize.x) * .1f), (wolfSize.y - wolfSize.y * .1f), 1);
 
-            if ((colliderScale.x <= modWolfScale.x) && (colliderScale.y <= modWolfScale.y))
+            if ((colliderSize.x <= modWolfSize.x) && (colliderSize.y <= modWolfSize.y))
             {
                 Destroy(collider.gameObject);
                 WolfGrow(collider.gameObject.GetComponent<foodStats>().growthAmount);
