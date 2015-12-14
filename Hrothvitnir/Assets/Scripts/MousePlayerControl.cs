@@ -50,7 +50,7 @@ public class MousePlayerControl : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
+    {        
         //Checks if the game has ended
         FailState();
 

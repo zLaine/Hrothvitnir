@@ -4,7 +4,7 @@ using System.Collections;
 public class PauseScreen : MonoBehaviour {
 
     public GameObject PauseUI;
-    private bool isPaused = false;
+    public bool isPaused = false;
 
     void Start() {
 
