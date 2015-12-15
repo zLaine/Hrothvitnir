@@ -1592,6 +1592,18 @@ Prefab:
       propertyPath: m_IsKinematic
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2085778, guid: 378b07cb5b9bb254b90fb461fecfbc13, type: 2}
+      propertyPath: m_BackGroundColor.r
+      value: 0.03137255
+      objectReference: {fileID: 0}
+    - target: {fileID: 2085778, guid: 378b07cb5b9bb254b90fb461fecfbc13, type: 2}
+      propertyPath: m_BackGroundColor.g
+      value: 0.58431375
+      objectReference: {fileID: 0}
+    - target: {fileID: 2085778, guid: 378b07cb5b9bb254b90fb461fecfbc13, type: 2}
+      propertyPath: m_BackGroundColor.b
+      value: 0.14117648
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 378b07cb5b9bb254b90fb461fecfbc13, type: 2}
   m_IsPrefabParent: 0
