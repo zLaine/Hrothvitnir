@@ -27,29 +27,16 @@ public class RavenAI : MonoBehaviour {
     {
         currentLocation = transform.position;
 
-        if (currentLocation == targetLocation)
+        if (Time.timeScale != 0)
         {
-            targetLocation = new Vector3(Random.Range(-2F, 2.6F), Random.Range(-1F, 2.4F), 0);
+
+            if (currentLocation == targetLocation)
+            {
+                targetLocation = new Vector3(Random.Range(-2F, 2.6F), Random.Range(-1F, 2.4F), 0);
+            }
+
+            transform.position = Vector3.MoveTowards(transform.position, targetLocation, walkSpeed);
         }
-
-        transform.position = Vector3.MoveTowards(transform.position, targetLocation, walkSpeed);
-
-        //controls the walking animations
-        /*if (hasAnimation == true)
-        {
-            if (previousLocation.x < transform.position.x)
-            {
-                walk.SetBool("walkRight", true);
-                walkRight = true;
-            }
-            else
-            {
-                walk.SetBool("walkRight", false);
-                walkRight = false;
-            }
-
-            previousLocation = currentLocation;
-        }*/
     }
 
     void OnTriggerStay2D(Collider2D collider)

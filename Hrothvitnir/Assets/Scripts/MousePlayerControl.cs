@@ -22,6 +22,9 @@ public class MousePlayerControl : MonoBehaviour
     public AudioClip wolfWalking;
     Animator wolfWalk;
 
+    public GameObject mainSound;
+    public GameObject hideSound;
+
     bool flipped = false;
     int hideTimer = 10;
     int threatTickTimer;  //Timer for increasing threat
@@ -29,13 +32,15 @@ public class MousePlayerControl : MonoBehaviour
     int damageTimer;
 
     Collider2D hideableCollider; //Stores the most recent hideable object (that is actually hideable)
-    Vector3 tempPosition; //used to determine if wolf is moving or not for animation purposes (since velocity isn't used)
-
 
 
     // Use this for initialization
     void Start()
     {
+        mainSound.GetComponent<AudioSource>().Play();
+        hideSound.GetComponent<AudioSource>().Play();
+        hideSound.GetComponent<AudioSource>().volume = 0;
+
         health = 3;
         threat = 0;
         threatTickTimer = 0;
@@ -43,7 +48,6 @@ public class MousePlayerControl : MonoBehaviour
         damageTimer = 0;
         size = 8;
         wolfWalk = GetComponent<Animator>();
-        tempPosition = transform.position;
 
         source = GetComponent<AudioSource>();
     }
@@ -70,6 +74,10 @@ public class MousePlayerControl : MonoBehaviour
                 this.gameObject.GetComponent<SpriteRenderer>().sortingOrder = 0;
                 hiding = true;
                 hideTimer = 10;
+
+                //change to hide music
+                hideSound.GetComponent<AudioSource>().volume = 1;
+                //mainSound.GetComponent<AudioSource>().volume = 0;
             }
         }
         //comes out from hiding
@@ -82,6 +90,10 @@ public class MousePlayerControl : MonoBehaviour
                 this.gameObject.GetComponent<SpriteRenderer>().sortingOrder = 6;
                 hiding = false;
                 hideTimer = 10;
+
+                //change to main music
+                hideSound.GetComponent<AudioSource>().volume = 0;
+                //mainSound.GetComponent<AudioSource>().volume = 1;
             }
         }
 

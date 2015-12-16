@@ -22,7 +22,6 @@ public class WanderAI : MonoBehaviour {
         previousLocation = transform.position;
 
         walk = GetComponent<Animator>();
-        isPaused = false;
     }
 
     // Update is called once per frame
@@ -30,12 +29,8 @@ public class WanderAI : MonoBehaviour {
     {
         currentLocation = transform.position;
 
-        if ((Input.GetKeyDown(KeyCode.Escape)))
-        {
-            isPaused = !isPaused;
-        }
 
-        if (isPaused == false)
+        if (Time.timeScale != 0)
         {
 
             if (currentLocation == targetLocation)
@@ -67,8 +62,9 @@ public class WanderAI : MonoBehaviour {
             {
                 if (previousLocation.x < transform.position.x)
                 {
-                    //honestly we don't really need this part but I am going to leave it in to maybe make this easier to read.
-                    //Sprite walks right automatically.
+                    Vector3 flipping = transform.localScale;
+                    flipping.x = Mathf.Abs(flipping.x);
+                    transform.localScale = flipping;
                     walkRight = true;
                 }
                 else
