@@ -3309,7 +3309,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   spreadCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -3331,7 +3331,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
 --- !u!4 &1268384049 stripped
 Transform:
   m_PrefabParentObject: {fileID: 478286, guid: b7939b34e616775478b9083f0ea3b811, type: 2}
@@ -3605,8 +3605,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: LoadGameOverScene
+      - m_Target: {fileID: 1357078696}
+        m_MethodName: ToGameOver
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

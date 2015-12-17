@@ -14,4 +14,9 @@ public class SwitchingScenes : MonoBehaviour {
 
         Application.LoadLevel("Title");
     }
+
+    public void ToGameOver() {
+
+        Application.LoadLevel("Game Over");
+    }
 }
