@@ -876,7 +876,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1379770958}
+      - m_Target: {fileID: 1379770956}
         m_MethodName: StartGame
         m_Mode: 1
         m_Arguments:
@@ -2358,9 +2358,9 @@ GameObject:
   - 92: {fileID: 1379770953}
   - 124: {fileID: 1379770952}
   - 81: {fileID: 1379770951}
-  - 114: {fileID: 1379770956}
   - 114: {fileID: 1379770957}
   - 114: {fileID: 1379770958}
+  - 114: {fileID: 1379770956}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2443,7 +2443,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1379770950}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0e8f003f9d73aa47ab326dcf94fca03, type: 3}
+  m_Script: {fileID: 11500000, guid: c5dd006a55f7bb2419a4c8c5c07e92d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1379770957

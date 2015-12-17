@@ -42,12 +42,6 @@ public class TiltleMenu : MonoBehaviour {
         TitleCanvas.SetActive(true);
     }
 
-    //Moves to scene with actual gameplay
-    public void StartGame() {
-
-        Application.LoadLevel("mainScene");
-    }
-
     //Makes Option Menu visible when called
     public void OptionsMenu() {
 
