@@ -1,4 +1,16 @@
-﻿using UnityEngine;
+/*
+
+A character control script for a Game Jam project done in Unity
+
+Hrothvitnir
+48 hour project
+4 person team
+
+Zack Laine
+
+*/
+
+using UnityEngine;
 using System.Collections;
 
 public class MousePlayerControl : MonoBehaviour
